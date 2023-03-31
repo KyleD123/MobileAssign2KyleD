@@ -88,7 +88,6 @@ namespace Assign2KyleD
 
             Label interactions = new Label { Text = "# Interactions: ", HorizontalOptions = LayoutOptions.CenterAndExpand, VerticalOptions = LayoutOptions.CenterAndExpand };
 
-            //int interactionsCount = db.GetInteractionCount(p.ID);
             count = new Label { HorizontalOptions = LayoutOptions.CenterAndExpand, VerticalOptions = LayoutOptions.CenterAndExpand };
             innerStack3.Children.Add(interactions);
             innerStack3.Children.Add(count);

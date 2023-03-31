@@ -86,7 +86,6 @@ namespace Assign2KyleD
             lName.SetBinding(Label.TextProperty, "lName");
             fName.SetBinding(Label.TextProperty, "fName");
             phone.SetBinding(Label.TextProperty, "phone");
-            
 
             stack.Children.Add(fName);
             stack.Children.Add(lName);
